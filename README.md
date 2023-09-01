@@ -55,35 +55,31 @@ Set up continuous monitoring of your SIEM system. Monitor dashboards and real-ti
 
 Document your SIEM architecture, configurations, and incident response procedures. Train your security team on SIEM usage and best practices for incident handling.
 <br /> 
-
-
 <p align="center">
-Create the virtual machine by going to Microsoft azure: <br/>
-<img src="(https://imgur.com/EIfAaOW)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create the virtual machine by going to Microsoft Azure: <br/>
+<img src="https://imgur.com/EIfAaOW.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-You then want to create your own inbound rule that allows everything inside the virtual machine so that we can see all the attacks of people trying to get into the virtual machine <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Network group <br/>
+        <img src="https://imgur.com/wm7IBnP.jpeg" height="80%" width="80%" 
+        alt="Disk Sanitization Steps"/>
+ <br />
+  Log analytic workspace
+  <br /> 
+<br />
+<img src="https://imgur.com/Ftg5Be6.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br />
+Remote connection for virtual to access virtual machine <br/>
+<img src="https://imgur.com/RfQ1Hks.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Alerts of different entities trying to get into the SIEM plotted  <br/>
+<img src="https://imgur.com/zQKJQ0W.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+a geo location of different entities trying to get into our SIEM <br/>
+<img src="https://imgur.com/OaeLKhk.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
